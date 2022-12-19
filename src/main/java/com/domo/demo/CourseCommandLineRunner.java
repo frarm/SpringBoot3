@@ -1,11 +1,9 @@
 package com.domo.demo;
 
-import org.apache.catalina.startup.ClassLoaderFactory.RepositoryType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.domo.demo.jpa.CourseJpaRepository;
 import com.domo.demo.springdatajpa.CourseSpringDataJpaRepository;
 
 @Component
